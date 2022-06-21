@@ -1,0 +1,27 @@
+#string variables
+name: Shubham Patel
+fruit: "apple"
+job: 'swe'
+
+bio: |
+hey my name is shubham patel.
+i am a very nice dude.
+
+#write a single lines in multiple lines
+message: >
+this will 
+all be 
+in one single line 
+
+number: 1234
+marks: 99.9999
+booleanValue: No # n, N, false, False,FALSE
+#same for true
+
+# specify the type
+zero: !!int 0
+positiveNum: !!int 45
+negitiveNum: !!int -45
+binaryNum: !!int 0b11001
+octalNum: !!int 02353
+binaryNum: !!int 0b11001

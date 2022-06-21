@@ -1,0 +1,17 @@
+"apple" : "I am a fruit"
+1 : "this is my roll no"
+---
+#lists
+- apple
+- mango
+- banana
+---
+cities:
+- surat
+- ahmedabad
+- new delhi #remember spaces are very important in yaml files
+---
+cities: [surat,ahmedabad,mumbai]
+---
+{fruit: "mango", age: 56}
+ ...

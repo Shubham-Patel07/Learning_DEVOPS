@@ -1,0 +1,67 @@
+student: !!seq
+ - marks
+ - name
+ - roll
+
+#like this also
+ cities: [new delhi, mumbai]
+
+#some of the keys might be empty
+#sparce matrix
+
+sparce seq:
+ - hey
+ - how
+ -
+ - Null
+ - sup
+
+ #nested sequence
+  - mango
+  - apple
+  - orange
+-
+  - marks
+  - roll
+  - name
+
+# key : value pairs are called map
+!!map
+
+# nested map : map within a map
+name: Shubham Patel
+role:
+  job: student
+  techstack: cloud computing
+
+#same as
+name: Shubham Patel
+role: {job: student, techstack: cloud computing}
+
+# pairs: keys may have duplicate values
+# !!pairs
+
+pairs example: !!pairs
+ - job: student
+ - job: professional
+
+#same as
+# this will be an array of hashtables
+pairs example: !!pairs [job: student, job: professional]
+
+# !!set will allow you to have unique values
+names: !!set
+ ? shub
+ ? kunal
+ ? howard
+
+#dictonary !!omap
+people: !!omap
+ - kunal:
+    name: Kunal khushwaha
+    age: 32
+    height: 32
+ - shub:
+    name: Shubham Patel
+    age: 32
+    height: 32
