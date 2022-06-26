@@ -59,9 +59,44 @@ names: !!set
 people: !!omap
  - kunal:
     name: Kunal khushwaha
-    age: 32
+    age: 42
     height: 32
  - shub:
     name: Shubham Patel
     age: 32
-    height: 32
+    height: 52
+
+#reusing some properties using anchors
+likings: &likes
+  fav fruits: mango
+  dislikes: grapes
+
+person1:
+  name: Shubham Patel
+  fav fruit: mango
+  dislikes: grapes
+
+person2:
+  name: yug Patel
+  fav fruit: mango
+  dislikes: grapes
+
+person3:
+  name: soham Patel
+  fav fruit: mango
+  dislikes: grapes
+
+#lets say if we havew such 1000 peple 
+#we need to rerite it everytime 
+#if we wanna mention lokes and dislikes 
+#so insted of that we can use anchors
+
+#using anchors
+person4:
+  name: nainsy Patel
+  <<: *likes
+#rewrite the details in anchors
+person5:
+  name: shiv Patel
+  <<: *likes
+  dislikes: berries #berries are overwritten 
