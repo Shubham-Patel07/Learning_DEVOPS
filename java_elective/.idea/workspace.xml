@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f382d4ba-7c92-4cec-ab8a-dc881ab6ca03" name="Changes" comment="" />
+    <list default="true" id="f382d4ba-7c92-4cec-ab8a-dc881ab6ca03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../dbmsTest/src/connectionutil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbmsTest/src/customerDetails.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbmsTest/src/customerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbmsTest/src/fucj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbmsTest/src/index.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbmsTest/src/index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project_indeed/src/Binary_Rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project_indeed/src/FindUniqueElementsinarr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project_indeed/src/ShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project_indeed/src/odd_even.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project_indeed/src/recurssion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project_indeed/src/stringbuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project_indeed/src/testclient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +54,12 @@
       <workItem from="1660826364356" duration="36000" />
       <workItem from="1660826423257" duration="20000" />
       <workItem from="1660826670236" duration="4000" />
+      <workItem from="1662350514291" duration="9000" />
+      <workItem from="1664446806235" duration="14000" />
+      <workItem from="1664519839889" duration="26000" />
+      <workItem from="1665504003976" duration="29000" />
+      <workItem from="1673326941647" duration="15000" />
+      <workItem from="1673796196200" duration="7000" />
     </task>
     <servers />
   </component>

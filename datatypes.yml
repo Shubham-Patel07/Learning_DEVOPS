@@ -25,3 +25,4 @@ negitiveNum: !!int -45
 binaryNum: !!int 0b11001
 octalNum: !!int 02353
 binaryNum: !!int 0b11001
+  # just for reference and updation
